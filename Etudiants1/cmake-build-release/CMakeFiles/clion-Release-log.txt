@@ -1,0 +1,5 @@
+/opt/clion-2024.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/opt/clion-2024.1/bin/ninja/linux/x64/ninja -G Ninja -S /user/8/elachaba/3A/prog_st/RegArch24Etudiants/Etudiants1 -B /user/8/elachaba/3A/prog_st/RegArch24Etudiants/Etudiants1/cmake-build-release
+CMAKE_BUILD_TYPE: Release
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /user/8/elachaba/3A/prog_st/RegArch24Etudiants/Etudiants1/cmake-build-release
