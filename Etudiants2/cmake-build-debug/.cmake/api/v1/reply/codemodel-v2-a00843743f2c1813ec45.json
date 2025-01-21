@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Error",
+					"jsonFile" : "directory-Error-Debug-daa4b0441ec829769e98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Error",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "VectorAndMatrix",
+					"jsonFile" : "directory-VectorAndMatrix-Debug-934859c29dfb083e9fbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "VectorAndMatrix",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "RegArchLib",
+					"jsonFile" : "directory-RegArchLib-Debug-40edc3e034e0a200dea8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RegArchLib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Tests",
+					"jsonFile" : "directory-Tests-Debug-0bb2ec8d84e8c19149a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Tests",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "RegArchTest",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Error::@5e029084f8b401b97d31",
+					"jsonFile" : "target-Error-Debug-c1804723ecc6cb37b51a.json",
+					"name" : "Error",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RegArchLib::@1c64862f59d6b0f3e728",
+					"jsonFile" : "target-RegArchLib-Debug-206ee0131d0c9fa7f264.json",
+					"name" : "RegArchLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "TestCPlusPlus::@3e3005ae7443f751ac85",
+					"jsonFile" : "target-TestCPlusPlus-Debug-5b2de22ff6e72e5dc08d.json",
+					"name" : "TestCPlusPlus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "VectorAndMatrix::@9aa1d6f4e1caf7cf0fcd",
+					"jsonFile" : "target-VectorAndMatrix-Debug-fc558cadc2e0b3f3c020.json",
+					"name" : "VectorAndMatrix",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/user/8/elachaba/3A/Prog-Time-Series/Etudiants2/cmake-build-debug",
+		"source" : "/user/8/elachaba/3A/Prog-Time-Series/Etudiants2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

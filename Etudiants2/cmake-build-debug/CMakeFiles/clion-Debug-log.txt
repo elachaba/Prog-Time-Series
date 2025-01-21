@@ -1,0 +1,27 @@
+/opt/clion-2024.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2024.1/bin/ninja/linux/x64/ninja -G Ninja -S /user/8/elachaba/3A/Prog-Time-Series/Etudiants2 -B /user/8/elachaba/3A/Prog-Time-Series/Etudiants2/cmake-build-debug
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMAKE_BUILD_TYPE: Debug
+-- Configuring done (2.0s)
+CMake Warning (dev) at RegArchLib/CMakeLists.txt:13 (add_library):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /user/8/elachaba/3A/Prog-Time-Series/Etudiants2/RegArchLib/cRegArchGradient.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+-- Build files have been written to: /user/8/elachaba/3A/Prog-Time-Series/Etudiants2/cmake-build-debug
